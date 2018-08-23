@@ -17,8 +17,7 @@ module.exports = {
     register: ( data, handler ) => {
         collection.insertOne(data, (err, result) =>{
             handler(err, result)
-            console.log(result)
-            console.log(data)
+           
 
         })
     },
